@@ -1,7 +1,7 @@
 :root{
   --head: 1.2rem;
-  --sub-title: 14px;
-  --value: 20px;
+  --sub-title: 10px;
+  --value: 12px;
 }
 
 *{
@@ -70,6 +70,10 @@ body{
 
 .sub-title{
   font-size: var(--sub-title);
+}
+
+.value{
+  font-size: var(--value);
 }
 
 .laptop-details-box{
